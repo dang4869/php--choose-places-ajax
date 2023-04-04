@@ -10,7 +10,7 @@
 
     $data[0] = [
         'id' => null,
-        'name' => 'Chọn một xã/phường'
+        'name' => 'Chọn một quận/phường'
     ];
 
     while ($row = mysqli_fetch_assoc($result)) {

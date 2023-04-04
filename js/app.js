@@ -13,6 +13,7 @@ $(document).ready(function() {
             province_id: province_id
           },
           success: function(data) {
+            console.log(data);
             // Clear the current options in the "district" select box
             $('#district').empty();
 
@@ -52,7 +53,7 @@ $(document).ready(function() {
             district_id: district_id
           },
           success: function(data) {
-            // console.log(data);
+            console.log(data);
             // Clear the current options in the "wards" select box
             $('#wards').empty();
             // Add the new options for the awards for the selected district

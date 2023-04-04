@@ -4,7 +4,7 @@
 $host = "localhost"; 
 $username = "root"; 
 $password = ""; 
-$dbname = "unitop_db_place"; 
+$dbname = "laravel-unimart"; 
 
 // Create connection
 $conn = mysqli_connect($host, $username, $password, $dbname);
